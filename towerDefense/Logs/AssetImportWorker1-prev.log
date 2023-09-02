@@ -15,7 +15,7 @@ C:/Users/Firel/Documents/GitHub/TowerDefense-Mini/towerDefense
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-49995
+51525
 Successfully changed project path to: C:/Users/Firel/Documents/GitHub/TowerDefense-Mini/towerDefense
 C:/Users/Firel/Documents/GitHub/TowerDefense-Mini/towerDefense
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ C:/Users/Firel/Documents/GitHub/TowerDefense-Mini/towerDefense
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [3392] Host "[IP] 192.168.1.16 [Port] 0 [Flags] 2 [Guid] 3039489061 [EditorId] 3039489061 [Version] 1048832 [Id] WindowsEditor(7,furkan) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [19564] Host "[IP] 192.168.1.16 [Port] 0 [Flags] 2 [Guid] 961264815 [EditorId] 961264815 [Version] 1048832 [Id] WindowsEditor(7,furkan) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [3392] Host "[IP] 192.168.1.16 [Port] 0 [Flags] 2 [Guid] 3039489061 [EditorId] 3039489061 [Version] 1048832 [Id] WindowsEditor(7,furkan) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [19564] Host "[IP] 192.168.1.16 [Port] 0 [Flags] 2 [Guid] 961264815 [EditorId] 961264815 [Version] 1048832 [Id] WindowsEditor(7,furkan) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 58.57 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 70.70 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.28f1 (232e59c3f087)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.28f1/Editor/Data/Resources/UnitySubsystems
@@ -67,52 +67,52 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.28f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.28f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.28f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56420
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56000
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.28f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.28f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.28f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.28f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
-Registered in 0.006147 seconds.
+Registered in 0.006478 seconds.
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 177 ms
+Android Extension - Scanning For ADB Devices 197 ms
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 56.63 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 68.24 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.681 seconds
+- Completed reload, in  0.754 seconds
 Domain Reload Profiling:
-	ReloadAssembly (682ms)
-		BeginReloadAssembly (60ms)
+	ReloadAssembly (754ms)
+		BeginReloadAssembly (73ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (543ms)
-			LoadAssemblies (59ms)
+		EndReloadAssembly (592ms)
+			LoadAssemblies (72ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (82ms)
+			SetupTypeCache (95ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (19ms)
-			SetupLoadedEditorAssemblies (403ms)
+			RebuildScriptCaches (18ms)
+			SetupLoadedEditorAssemblies (433ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (248ms)
+				InitializePlatformSupportModulesInManaged (263ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (57ms)
+				RefreshPlugins (68ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (62ms)
-				ProcessInitializeOnLoadMethodAttributes (35ms)
+				ProcessInitializeOnLoadAttributes (68ms)
+				ProcessInitializeOnLoadMethodAttributes (33ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004305 seconds.
+Registered in 0.005082 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\Firel\Documents\GitHub\TowerDefense-Mini\towerDefense\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\Firel\Documents\GitHub\TowerDefense-Mini\towerDefense\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
@@ -120,46 +120,46 @@ Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.34 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.736 seconds
+- Completed reload, in  0.789 seconds
 Domain Reload Profiling:
-	ReloadAssembly (736ms)
-		BeginReloadAssembly (86ms)
+	ReloadAssembly (790ms)
+		BeginReloadAssembly (88ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (16ms)
-		EndReloadAssembly (574ms)
-			LoadAssemblies (61ms)
+		EndReloadAssembly (622ms)
+			LoadAssemblies (68ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (182ms)
+			SetupTypeCache (190ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (32ms)
-			SetupLoadedEditorAssemblies (261ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (295ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (18ms)
+				InitializePlatformSupportModulesInManaged (17ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (63ms)
-				ProcessInitializeOnLoadAttributes (160ms)
-				ProcessInitializeOnLoadMethodAttributes (15ms)
-				AfterProcessingInitializeOnLoad (5ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (65ms)
+				ProcessInitializeOnLoadAttributes (184ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (8ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (4ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.37 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.57 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3052 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 22 unused Assets / (46.3 KB). Loaded Objects now: 3517.
-Memory consumption went from 112.1 MB to 112.0 MB.
-Total: 2.280100 ms (FindLiveObjects: 0.170300 ms CreateObjectMapping: 0.067100 ms MarkObjects: 1.982900 ms  DeleteObjects: 0.043900 ms)
+Unloading 3065 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (46.3 KB). Loaded Objects now: 3534.
+Memory consumption went from 115.1 MB to 115.0 MB.
+Total: 2.965700 ms (FindLiveObjects: 0.205700 ms CreateObjectMapping: 0.141000 ms MarkObjects: 2.558800 ms  DeleteObjects: 0.059300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -175,418 +175,83 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 658.861154 seconds.
-  path: Assets/AssetStore/TowerDefenseKit/Sample.png
-  artifactKey: Guid(66bfd28a27cefc64c9399d09190f9b74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/TowerDefenseKit/Sample.png using Guid(66bfd28a27cefc64c9399d09190f9b74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68d9488c1ff717a4cbc94ecc69c22ebf') in 0.072224 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.776433 seconds.
-  path: Assets/AssetStore/TowerDefenseKit/Models/DAE format/detail_crystalLarge.dae
-  artifactKey: Guid(fdd51e00aa106cf4d9a1c7f1cb7b4dfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/TowerDefenseKit/Models/DAE format/detail_crystalLarge.dae using Guid(fdd51e00aa106cf4d9a1c7f1cb7b4dfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8e37b108b9c7b5f286967d6121927a8') in 0.349815 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/AssetStore/TowerDefenseKit/Models/DAE format/snow_tile_riverSlopeLarge.dae
-  artifactKey: Guid(5145c75ff5acab9449069f109ee9a3f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/TowerDefenseKit/Models/DAE format/snow_tile_riverSlopeLarge.dae using Guid(5145c75ff5acab9449069f109ee9a3f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6213c7146751b725945a8c50bad296c5') in 0.028966 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/AssetStore/TowerDefenseKit/Models/DAE format/snow_tile_spawn.dae
-  artifactKey: Guid(6329b5995b5783241ad19f568d7d1665) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/TowerDefenseKit/Models/DAE format/snow_tile_spawn.dae using Guid(6329b5995b5783241ad19f568d7d1665) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e070b6233fcab50bd856c564920aafac') in 0.033333 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/AssetStore/TowerDefenseKit/Models/DAE format/snow_tile_crossing.dae
-  artifactKey: Guid(c37aa8ba8cdbc364aa4767fa8dd5a323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/TowerDefenseKit/Models/DAE format/snow_tile_crossing.dae using Guid(c37aa8ba8cdbc364aa4767fa8dd5a323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fd15b917185cd34b89f92026e1d74c2') in 0.027687 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/AssetStore/TowerDefenseKit/Models/DAE format/snow_tile_split.dae
-  artifactKey: Guid(d4f9c7ad54e2b69458b7105c0cbe1bd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/TowerDefenseKit/Models/DAE format/snow_tile_split.dae using Guid(d4f9c7ad54e2b69458b7105c0cbe1bd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '102369c60f9f61ee3e90b56cee351e6e') in 0.028102 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/AssetStore/TowerDefenseKit/Models/DAE format/snow_tile_cornerSquare.dae
-  artifactKey: Guid(5cf0d82dc5f7cdb4d83d68789a616b72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/TowerDefenseKit/Models/DAE format/snow_tile_cornerSquare.dae using Guid(5cf0d82dc5f7cdb4d83d68789a616b72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3d79e4422b27b904c10e269dbe5f6f7') in 0.027365 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/AssetStore/TowerDefenseKit/Models/DAE format/snow_tile_cornerInner.dae
-  artifactKey: Guid(0e811b0d9c9793f4fb9a7b521cd1e015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/TowerDefenseKit/Models/DAE format/snow_tile_cornerInner.dae using Guid(0e811b0d9c9793f4fb9a7b521cd1e015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fd1e4d717dcdcde72ad81377676e154') in 0.026839 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/AssetStore/TowerDefenseKit/Models/DAE format/snow_tile.dae
-  artifactKey: Guid(46e9aa5ff3fa50d4793764b123f501a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/TowerDefenseKit/Models/DAE format/snow_tile.dae using Guid(46e9aa5ff3fa50d4793764b123f501a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e93c23d65961060153dc4878419347bb') in 0.023351 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/AssetStore/TowerDefenseKit/Models/DAE format/snow_tile_bump.dae
-  artifactKey: Guid(208e1d33b4f6199419abddf05ebf44ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/TowerDefenseKit/Models/DAE format/snow_tile_bump.dae using Guid(208e1d33b4f6199419abddf05ebf44ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '703f7014c6a05c478aee90aa812dda03') in 0.029394 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/AssetStore/TowerDefenseKit/Models/DAE format/enemy_ufoYellowWeapon.dae
-  artifactKey: Guid(0420da6f7145abc4383fa161799f4ebc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/TowerDefenseKit/Models/DAE format/enemy_ufoYellowWeapon.dae using Guid(0420da6f7145abc4383fa161799f4ebc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f2fa6740f8002959be9a97b57c364e9') in 0.040463 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/AssetStore/TowerDefenseKit/Models/DAE format/enemy_ufoPurple.dae
-  artifactKey: Guid(fd210f08471bf774f9dd32d27f9b2aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/TowerDefenseKit/Models/DAE format/enemy_ufoPurple.dae using Guid(fd210f08471bf774f9dd32d27f9b2aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5e1cfc06aa17a4b079919f8beaeb926') in 0.027904 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/AssetStore/TowerDefenseKit/Models/DAE format/snow_detail_tree.dae
-  artifactKey: Guid(36003de2ac2199f459df949051d642d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/TowerDefenseKit/Models/DAE format/snow_detail_tree.dae using Guid(36003de2ac2199f459df949051d642d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1e380443c49a87226b7add92ba6ff7c') in 0.030636 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/AssetStore/TowerDefenseKit/Models/DAE format/snow_tile_crystal.dae
-  artifactKey: Guid(0a376a10f33d4a346a969bd471a59f5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/TowerDefenseKit/Models/DAE format/snow_tile_crystal.dae using Guid(0a376a10f33d4a346a969bd471a59f5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bc02b3d1023792897a84e6809067c21') in 0.046949 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/AssetStore/TowerDefenseKit/Models/DAE format/snow_tile_riverStraight.dae
-  artifactKey: Guid(35b4efbf757b92a4d9a697749c4396c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/TowerDefenseKit/Models/DAE format/snow_tile_riverStraight.dae using Guid(35b4efbf757b92a4d9a697749c4396c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80c4f5517f3221df8a931d952b90f4db') in 0.025861 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/AssetStore/TowerDefenseKit/Models/DAE format/snow_tile_riverTransition.dae
-  artifactKey: Guid(7b67dc0d3511e9d47b0bf09058911be6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/TowerDefenseKit/Models/DAE format/snow_tile_riverTransition.dae using Guid(7b67dc0d3511e9d47b0bf09058911be6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1a2cec2fe617bac4f15ab64e64f1d95') in 0.025690 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/AssetStore/TowerDefenseKit/Models/DAE format/enemy_ufoPurpleWeapon.dae
-  artifactKey: Guid(372f4665c2771434bb725b3fcab1e572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/TowerDefenseKit/Models/DAE format/enemy_ufoPurpleWeapon.dae using Guid(372f4665c2771434bb725b3fcab1e572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4805cc702d3da355466306d7f62322ee') in 0.031045 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/AssetStore/TowerDefenseKit/Models/DAE format/snow_detail_rocksLarge.dae
-  artifactKey: Guid(ef9602f0090dab742b0e9e16166e602c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/TowerDefenseKit/Models/DAE format/snow_detail_rocksLarge.dae using Guid(ef9602f0090dab742b0e9e16166e602c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c9856fb50ab61700be5d745dc9b2612') in 0.020269 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/AssetStore/TowerDefenseKit/Models/DAE format/detail_tree.dae
-  artifactKey: Guid(79fc418469e10a348b68b51dee984f85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/TowerDefenseKit/Models/DAE format/detail_tree.dae using Guid(79fc418469e10a348b68b51dee984f85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e88d773c140e9829121d5101c5e34c11') in 0.025130 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/AssetStore/TowerDefenseKit/Models/DAE format/snow_detail_crystalLarge.dae
-  artifactKey: Guid(5cda760bd4764da4dbf15befa43421b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/TowerDefenseKit/Models/DAE format/snow_detail_crystalLarge.dae using Guid(5cda760bd4764da4dbf15befa43421b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49bde5556fc6fa3823bb28a081a01f70') in 0.040884 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/AssetStore/TowerDefenseKit/Models/DAE format/snow_detail_treeLarge.dae
-  artifactKey: Guid(fd50bfbaf6263054096d859a9b1b2aa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/TowerDefenseKit/Models/DAE format/snow_detail_treeLarge.dae using Guid(fd50bfbaf6263054096d859a9b1b2aa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '191665d66860c65074fac0b72b8d2380') in 0.029131 seconds 
+  Time since last request: 16600.937906 seconds.
+  path: Assets/AssetStore/TowerDefenseKit/Models/DAE format/weapon_blaster.dae
+  artifactKey: Guid(f0a35786e5ee3a14da595aa80fcbb277) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/TowerDefenseKit/Models/DAE format/weapon_blaster.dae using Guid(f0a35786e5ee3a14da595aa80fcbb277) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42101e5366067158bf68e678f86fa941') in 0.123580 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000032 seconds.
-  path: Assets/AssetStore/TowerDefenseKit/Models/DAE format/snow_detail_crystal.dae
-  artifactKey: Guid(1d6c0b29ff289fb48b858270486bc57d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/TowerDefenseKit/Models/DAE format/snow_detail_crystal.dae using Guid(1d6c0b29ff289fb48b858270486bc57d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca4d330d6622f17216b3ff443b4481ef') in 0.024599 seconds 
+  path: Assets/AssetStore/TowerDefenseKit/Models/DAE format/towerSquare_topB.dae
+  artifactKey: Guid(5c7232c2ed5940d44a7db77aaffdfd71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/TowerDefenseKit/Models/DAE format/towerSquare_topB.dae using Guid(5c7232c2ed5940d44a7db77aaffdfd71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52f12f71b9ad1fde81d4c029c91776d8') in 0.029385 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/AssetStore/TowerDefenseKit/Models/DAE format/snow_tile_spawnRound.dae
-  artifactKey: Guid(1249ea8349acd41499e374608fdfb25e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/TowerDefenseKit/Models/DAE format/snow_tile_spawnRound.dae using Guid(1249ea8349acd41499e374608fdfb25e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f74ba3454bb2079085345f9270b03a0b') in 0.032464 seconds 
+  Time since last request: 0.002809 seconds.
+  path: Assets/AssetStore/TowerDefenseKit/Models/DAE format/towerSquare_topA.dae
+  artifactKey: Guid(b4741a32202c5fd43b0aea3f30a821b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/TowerDefenseKit/Models/DAE format/towerSquare_topA.dae using Guid(b4741a32202c5fd43b0aea3f30a821b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '496aad60c81c6ba590def3da6c19e6dc') in 0.026374 seconds 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/AssetStore/TowerDefenseKit/Models/DAE format/snow_tile_hill.dae
-  artifactKey: Guid(ad7d53d0f4d049c45b99d6f1111e9afe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/TowerDefenseKit/Models/DAE format/snow_tile_hill.dae using Guid(ad7d53d0f4d049c45b99d6f1111e9afe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c74d20c8b3d5ded78f82f1706d38fc10') in 0.030592 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/AssetStore/TowerDefenseKit/Models/DAE format/enemy_ufoGreen.dae
-  artifactKey: Guid(ca8f9bb3490cc734d96be60cacf1a32e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/TowerDefenseKit/Models/DAE format/enemy_ufoGreen.dae using Guid(ca8f9bb3490cc734d96be60cacf1a32e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15b0e1a7968a9b54c06c4997f0cad3ea') in 0.023884 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/AssetStore/TowerDefenseKit/Models/DAE format/detail_dirt.dae
-  artifactKey: Guid(3a668eaa0169a924db298ccdb056871d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/TowerDefenseKit/Models/DAE format/detail_dirt.dae using Guid(3a668eaa0169a924db298ccdb056871d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8052abe5c38a48041a8cfbb61b0036a') in 0.021046 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/AssetStore/TowerDefenseKit/Models/DAE format/tile_cornerRound.dae
-  artifactKey: Guid(00cd2ab8a1b97a64ca5691205c86c8c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/TowerDefenseKit/Models/DAE format/tile_cornerRound.dae using Guid(00cd2ab8a1b97a64ca5691205c86c8c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b99e2fcf8ef3a468ca977f98928330e0') in 0.023707 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/AssetStore/TowerDefenseKit/Models/DAE format/snow_tile_tree.dae
-  artifactKey: Guid(831c2eaf8acbcb94e9d286e465a3d97e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/TowerDefenseKit/Models/DAE format/snow_tile_tree.dae using Guid(831c2eaf8acbcb94e9d286e465a3d97e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3412c2e51022de46411f66fce76e8fbd') in 0.032710 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/AssetStore/TowerDefenseKit/Models/DAE format/tile_cornerLarge.dae
-  artifactKey: Guid(c1ad621350f359e4e80391bdcf67d97d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/TowerDefenseKit/Models/DAE format/tile_cornerLarge.dae using Guid(c1ad621350f359e4e80391bdcf67d97d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfca7adafd68a38dfb0ae0b5b5626d78') in 0.028404 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/AssetStore/TowerDefenseKit/Models/DAE format/snow_tile_wideTransition.dae
-  artifactKey: Guid(a7beee5422cfce740876538566f02072) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/TowerDefenseKit/Models/DAE format/snow_tile_wideTransition.dae using Guid(a7beee5422cfce740876538566f02072) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '412e0ddfe49694c775864afef4cde8e7') in 0.028986 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/AssetStore/TowerDefenseKit/Models/DAE format/snow_tile_treeQuad.dae
-  artifactKey: Guid(75da868db98321f44bf28d44be131f94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/TowerDefenseKit/Models/DAE format/snow_tile_treeQuad.dae using Guid(75da868db98321f44bf28d44be131f94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db9843dc2ab2b851b3a87272556a561d') in 0.042565 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/AssetStore/TowerDefenseKit/Models/DAE format/snow_tile_wideSplit.dae
-  artifactKey: Guid(9499c16703219eb469f478a8de605ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/TowerDefenseKit/Models/DAE format/snow_tile_wideSplit.dae using Guid(9499c16703219eb469f478a8de605ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c91778d302a18dae44a1d40ff1c6254') in 0.026879 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/AssetStore/TowerDefenseKit/Models/DAE format/snow_tile_straightHillLarge.dae
-  artifactKey: Guid(803246c5a9035e6428f260dddfc47bbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/TowerDefenseKit/Models/DAE format/snow_tile_straightHillLarge.dae using Guid(803246c5a9035e6428f260dddfc47bbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2481e7d2bb37360703e9d98ce262ff34') in 0.026915 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/AssetStore/TowerDefenseKit/Models/DAE format/snow_tile_wideStraight.dae
-  artifactKey: Guid(4e1a56d98e52b8b449c8331c95f993ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/TowerDefenseKit/Models/DAE format/snow_tile_wideStraight.dae using Guid(4e1a56d98e52b8b449c8331c95f993ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '813249e8ea44c60d2449314ec4e67ebd') in 0.028586 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.486621 seconds.
-  path: Assets/AssetStore/TowerDefenseKit/Models/DAE format/tile_crossing.dae
-  artifactKey: Guid(ec0208de8070801488dd8ca54ac6ada5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/TowerDefenseKit/Models/DAE format/tile_crossing.dae using Guid(ec0208de8070801488dd8ca54ac6ada5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e14741d0af25ee2a7f6670d7cfd446c7') in 0.023509 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/AssetStore/TowerDefenseKit/Models/DAE format/tile_wideStraight.dae
-  artifactKey: Guid(6fc69a706b4429d47a77aae3a33b82a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/TowerDefenseKit/Models/DAE format/tile_wideStraight.dae using Guid(6fc69a706b4429d47a77aae3a33b82a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b9712ddcf57d90f914341cd75087a91') in 0.025878 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/AssetStore/TowerDefenseKit/Models/DAE format/towerRound_middleA.dae
-  artifactKey: Guid(0187c566ce1ea9745aae7fbeac9d998b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/TowerDefenseKit/Models/DAE format/towerRound_middleA.dae using Guid(0187c566ce1ea9745aae7fbeac9d998b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96f1b92c8b1fd403db0a548f55233059') in 0.023862 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/AssetStore/TowerDefenseKit/Models/DAE format/towerRound_sampleD.dae
-  artifactKey: Guid(2c3848f2f64e47e48842abd5966f970e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/TowerDefenseKit/Models/DAE format/towerRound_sampleD.dae using Guid(2c3848f2f64e47e48842abd5966f970e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4002bd257204e124bdd4d24c3c19ac5') in 0.023933 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/AssetStore/TowerDefenseKit/Models/DAE format/towerSquare_middleA.dae
-  artifactKey: Guid(5306a4f0d6ce269459f6d6bdae2e4799) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/TowerDefenseKit/Models/DAE format/towerSquare_middleA.dae using Guid(5306a4f0d6ce269459f6d6bdae2e4799) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97e797600b486bd39dd64651c307ad8a') in 0.022257 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/AssetStore/TowerDefenseKit/Models/DAE format/towerSquare_sampleB.dae
-  artifactKey: Guid(67e03468dd8e8d54a9471580f8b02983) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/TowerDefenseKit/Models/DAE format/towerSquare_sampleB.dae using Guid(67e03468dd8e8d54a9471580f8b02983) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14b3ee09e0e73336184a28d74d0a2381') in 0.025098 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/AssetStore/TowerDefenseKit/Models/DAE format/tile_transition.dae
-  artifactKey: Guid(2eff47474c4b67c43a35b4aa6084fe12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/TowerDefenseKit/Models/DAE format/tile_transition.dae using Guid(2eff47474c4b67c43a35b4aa6084fe12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fbee584a6404d146c3933ae2627a72e') in 0.026272 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/AssetStore/TowerDefenseKit/Models/DAE format/towerSquare_roofC.dae
-  artifactKey: Guid(2d97a7f5c3bb46e49b4993973086c06e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/TowerDefenseKit/Models/DAE format/towerSquare_roofC.dae using Guid(2d97a7f5c3bb46e49b4993973086c06e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'faf1632536a14c79f0c18a0ac9b98078') in 0.041162 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/AssetStore/TowerDefenseKit/Models/DAE format/tile_endRound.dae
-  artifactKey: Guid(d88cb11877964654cad1c62495c34e3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/TowerDefenseKit/Models/DAE format/tile_endRound.dae using Guid(d88cb11877964654cad1c62495c34e3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66a14973a6aa53848b05ac014d29d89c') in 0.026673 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/AssetStore/TowerDefenseKit/Models/DAE format/towerRound_sampleC.dae
-  artifactKey: Guid(71e97f90f96ddc340a509829ff6ec04f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/TowerDefenseKit/Models/DAE format/towerRound_sampleC.dae using Guid(71e97f90f96ddc340a509829ff6ec04f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f390339ac3743c5a1bd0389cfcb4da58') in 0.024567 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/AssetStore/TowerDefenseKit/Models/DAE format/towerSquare_bottomB.dae
-  artifactKey: Guid(4f5baaf70da081c4d967de303417a018) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/TowerDefenseKit/Models/DAE format/towerSquare_bottomB.dae using Guid(4f5baaf70da081c4d967de303417a018) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '305f48c2947bb3114ad39f05d67eb7b6') in 0.025000 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/AssetStore/TowerDefenseKit/Models/DAE format/towerRound_sampleA.dae
-  artifactKey: Guid(7fc4a50a9fbf17449acd6c1ed3d3611e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/TowerDefenseKit/Models/DAE format/towerRound_sampleA.dae using Guid(7fc4a50a9fbf17449acd6c1ed3d3611e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62414747f2257ddb01fbf0bae9a02bb3') in 0.024467 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/AssetStore/TowerDefenseKit/Models/DAE format/tile_riverTransition.dae
-  artifactKey: Guid(f2fbbc4a363c83345be704a2eb2a69d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/TowerDefenseKit/Models/DAE format/tile_riverTransition.dae using Guid(f2fbbc4a363c83345be704a2eb2a69d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c081a65d01672c1cf3743b0b0c8306f1') in 0.024952 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/AssetStore/TowerDefenseKit/Models/DAE format/towerRound_bottomC.dae
-  artifactKey: Guid(facdd56e027fd6844a837f6ae6b02680) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/TowerDefenseKit/Models/DAE format/towerRound_bottomC.dae using Guid(facdd56e027fd6844a837f6ae6b02680) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1c50ab46275ed9e84b5f1571096ab9a') in 0.022599 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/AssetStore/TowerDefenseKit/Models/DAE format/towerRound_middleC.dae
-  artifactKey: Guid(64ae9f6370f5d19498473d8edff8969b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/TowerDefenseKit/Models/DAE format/towerRound_middleC.dae using Guid(64ae9f6370f5d19498473d8edff8969b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15e39198c5bb1ec8776b9cbc6d21f800') in 0.021960 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/AssetStore/TowerDefenseKit/Models/DAE format/tile_treeQuad.dae
-  artifactKey: Guid(9753083774e69e84ba8987242f60615c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/TowerDefenseKit/Models/DAE format/tile_treeQuad.dae using Guid(9753083774e69e84ba8987242f60615c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61d2974a655181af4c48ca9960d924b2') in 0.039622 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/AssetStore/TowerDefenseKit/Models/DAE format/towerRound_base.dae
-  artifactKey: Guid(88d703954979b1349a37f71c0b913996) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/TowerDefenseKit/Models/DAE format/towerRound_base.dae using Guid(88d703954979b1349a37f71c0b913996) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b084f4fc49f22b7cd194d2fe406840c2') in 0.027321 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/AssetStore/TowerDefenseKit/Models/DAE format/towerSquare_roofB.dae
-  artifactKey: Guid(26197ddc8df325c4daf688dfdb7cd9af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/TowerDefenseKit/Models/DAE format/towerSquare_roofB.dae using Guid(26197ddc8df325c4daf688dfdb7cd9af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5df1edcd5a5a9c827c814bcf3eb8a09') in 0.025771 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/AssetStore/TowerDefenseKit/Models/DAE format/tile_slope.dae
-  artifactKey: Guid(197262267b8930240a9d45f95a38d629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/TowerDefenseKit/Models/DAE format/tile_slope.dae using Guid(197262267b8930240a9d45f95a38d629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3222eca5939ad3e8de706fc76f27583') in 0.023588 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/AssetStore/TowerDefenseKit/Models/DAE format/towerSquare_middleC.dae
-  artifactKey: Guid(a9b7879cca9b0694e9dfee85ef2dee7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/TowerDefenseKit/Models/DAE format/towerSquare_middleC.dae using Guid(a9b7879cca9b0694e9dfee85ef2dee7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de7472ad58d649d5927e8c45dcb7d662') in 0.023309 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/AssetStore/TowerDefenseKit/Models/DAE format/tile_wideSplit.dae
-  artifactKey: Guid(8f316aca705f10f4c8de8f8aeb5521cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/TowerDefenseKit/Models/DAE format/tile_wideSplit.dae using Guid(8f316aca705f10f4c8de8f8aeb5521cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f358828a160ff3113a2e86babc81384') in 0.023857 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/AssetStore/TowerDefenseKit/Models/DAE format/towerRound_topA.dae
-  artifactKey: Guid(70593d0738cd9c44198e52faa326872b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/TowerDefenseKit/Models/DAE format/towerRound_topA.dae using Guid(70593d0738cd9c44198e52faa326872b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99f2ec02cdf6cb48daee5e4f372a1adf') in 0.027396 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/AssetStore/TowerDefenseKit/Models/DAE format/tile_dirtHigh.dae
-  artifactKey: Guid(994a6f931754aa044a3a4e9dc1393994) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/TowerDefenseKit/Models/DAE format/tile_dirtHigh.dae using Guid(994a6f931754aa044a3a4e9dc1393994) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64611036a67a747d08a06f07b48e2ccc') in 0.019801 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/AssetStore/TowerDefenseKit/Models/DAE format/towerSquare_roofA.dae
-  artifactKey: Guid(61837c8503505434fb3055084af2dd49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/TowerDefenseKit/Models/DAE format/towerSquare_roofA.dae using Guid(61837c8503505434fb3055084af2dd49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9d526ee9b4a6004e744d4b4142b81b2') in 0.025697 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/AssetStore/TowerDefenseKit/Models/DAE format/tile_riverSlope.dae
-  artifactKey: Guid(32e87ec128948b9449943e05e9f97e11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/TowerDefenseKit/Models/DAE format/tile_riverSlope.dae using Guid(32e87ec128948b9449943e05e9f97e11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f186e9c60513648c4cebcbe8e08b8a61') in 0.029964 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/AssetStore/TowerDefenseKit/Models/DAE format/tile_wideCorner.dae
-  artifactKey: Guid(706c6092a051bda4d81aeef3de25eda0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/TowerDefenseKit/Models/DAE format/tile_wideCorner.dae using Guid(706c6092a051bda4d81aeef3de25eda0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acd3f41374efb09e16f2f3843412ba6f') in 0.027590 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/AssetStore/TowerDefenseKit/Models/DAE format/towerRound_roofB.dae
-  artifactKey: Guid(bec5effa5ff5ff643b1d44de232fc069) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/TowerDefenseKit/Models/DAE format/towerRound_roofB.dae using Guid(bec5effa5ff5ff643b1d44de232fc069) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a204e918c0ad6b501f21ba35229949e0') in 0.025756 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/AssetStore/TowerDefenseKit/Models/DAE format/tile_dirt.dae
-  artifactKey: Guid(9065e5567b9528b42a4dee90c383aeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/TowerDefenseKit/Models/DAE format/tile_dirt.dae using Guid(9065e5567b9528b42a4dee90c383aeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84dcc5c03437071a2b592082db7de772') in 0.019919 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/AssetStore/TowerDefenseKit/Models/DAE format/towerRound_sampleF.dae
-  artifactKey: Guid(abf70bcddefe4ef4b92694df635f00df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/TowerDefenseKit/Models/DAE format/towerRound_sampleF.dae using Guid(abf70bcddefe4ef4b92694df635f00df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58e11374b754822ea420cbe554ea145b') in 0.026229 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/AssetStore/TowerDefenseKit/Models/DAE format/tile_riverStraight.dae
-  artifactKey: Guid(175b6f299e2e2e5498fcb8190e203d96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/TowerDefenseKit/Models/DAE format/tile_riverStraight.dae using Guid(175b6f299e2e2e5498fcb8190e203d96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29011b79f8a121fc74745b5e32818521') in 0.027093 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/AssetStore/TowerDefenseKit/Models/DAE format/towerRound_bottomA.dae
-  artifactKey: Guid(d783f8c4cebbecc4c8dbb7fc03b162d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/TowerDefenseKit/Models/DAE format/towerRound_bottomA.dae using Guid(d783f8c4cebbecc4c8dbb7fc03b162d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd11d31d4e24dd0c1bb4e2951064261aa') in 0.021981 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/AssetStore/TowerDefenseKit/Models/DAE format/towerRound_roofA.dae
-  artifactKey: Guid(bc5b7c159116c964b870fbba06af02c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/TowerDefenseKit/Models/DAE format/towerRound_roofA.dae using Guid(bc5b7c159116c964b870fbba06af02c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81f28fc6d5afb95130b3589472b01d9f') in 0.023938 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/AssetStore/TowerDefenseKit/Models/DAE format/towerSquare_bottomC.dae
-  artifactKey: Guid(e5420ff1c7702904ca0d12d419c3e42f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/TowerDefenseKit/Models/DAE format/towerSquare_bottomC.dae using Guid(e5420ff1c7702904ca0d12d419c3e42f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22b9e5cc7afcc1b7df36713abb84fbe3') in 0.020583 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/AssetStore/TowerDefenseKit/Models/DAE format/towerRound_sampleE.dae
-  artifactKey: Guid(5142bd0ac879c6c4ca3d586d357c5c37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/TowerDefenseKit/Models/DAE format/towerRound_sampleE.dae using Guid(5142bd0ac879c6c4ca3d586d357c5c37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88d158871b028a3d415b4651c6d938a6') in 0.025159 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/AssetStore/TowerDefenseKit/Models/DAE format/tile_split.dae
-  artifactKey: Guid(c0a7d461270474548aad105b4a820a43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/TowerDefenseKit/Models/DAE format/tile_split.dae using Guid(c0a7d461270474548aad105b4a820a43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c36bae7684cfee90ee7afc61f5adbacb') in 0.026694 seconds 
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005305 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Firel\Documents\GitHub\TowerDefense-Mini\towerDefense\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Firel\Documents\GitHub\TowerDefense-Mini\towerDefense\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.757 seconds
+Domain Reload Profiling:
+	ReloadAssembly (757ms)
+		BeginReloadAssembly (122ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (551ms)
+			LoadAssemblies (77ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (193ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (26ms)
+			SetupLoadedEditorAssemblies (234ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (44ms)
+				ProcessInitializeOnLoadAttributes (150ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.61 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3057 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (22.0 KB). Loaded Objects now: 3580.
+Memory consumption went from 114.4 MB to 114.4 MB.
+Total: 2.387400 ms (FindLiveObjects: 0.207300 ms CreateObjectMapping: 0.080300 ms MarkObjects: 2.083600 ms  DeleteObjects: 0.015600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting

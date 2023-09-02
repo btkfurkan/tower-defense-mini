@@ -34,6 +34,12 @@ public class Enemy : MonoBehaviour
             MapManager.Instance.DamageCastle();
             Destroy(this.gameObject);
         }
+
+        if (other.gameObject.CompareTag("Bullet"))
+        {
+            Destroy(other.gameObject);
+            Destroy(this.gameObject);
+        }
     }
 
 

@@ -12,7 +12,7 @@ public class Spawner : MonoBehaviour
 
     void Start()
     {
-        InvokeRepeating(nameof(Spawn), 1.0f, Random.Range(1, 4));
+        InvokeRepeating(nameof(Spawn), 1.0f, Random.Range(1, 2));
     }
 
     private void Spawn()
